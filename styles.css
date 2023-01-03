@@ -125,6 +125,46 @@ body {
     }
 }
 
+#experiences {
+    padding: 25px; 
+}
+
+#experiences .headers {
+    margin-top: 50px; 
+}
+
+#experiences h2 {
+    text-transform: uppercase;
+    font-weight: 600; 
+    color: rgba(255,255,255,0.75);
+    font-size: 20px;
+}
+
+
+
+.companies {
+    color:white; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#experiences h1{
+    color: white; 
+    font-size: 65px;
+}
+
+.company {
+    margin: 25px; 
+    background-color: var(--background-secondary);
+    padding: 15px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
 @media all and (max-width: 500px) {
     .headings {
         padding: 0px 15px; 
@@ -140,4 +180,11 @@ body {
     .headings h2 {
         font-size: 20px;
     }
+    .companies {
+        flex-direction: column;
+    }
+    #experiences h1 {
+        font-size: 45px;
+    }
 }
+
